@@ -9,6 +9,6 @@ module.exports.cid = function() {
 
   let random = (Math.random() * 100000).toFixed(0).padStart(5, '0');
 
-  return tz + '-' + random;
+  return ts + '-' + random;
 
 }
